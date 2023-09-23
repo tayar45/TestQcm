@@ -90,7 +90,7 @@ container.innerHTML=`
     <hr>
      <p class="card-text">${text}</p>
      
-     <button id="replay">Answers</button>
+     <button><a href="responsesPage.html" >Result</a></button>
   </div>
 `
 
