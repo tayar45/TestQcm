@@ -101,7 +101,7 @@ sessionStorage.setItem("qcm",JSON.stringify(qcm))
 
 var replay = document.getElementById("replay")
 replay.onclick=function (){
- window.location.href="/responsesPage"
+ window.location.href="/TestQcm/responsesPage.html"
   
 }
 
