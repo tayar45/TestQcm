@@ -1,5 +1,5 @@
 if (sessionStorage.getItem("qcm")==null) {
-  window.location.href="/."
+  window.location.href="/TestQcm"
 
 }
 const qcm=JSON.parse(sessionStorage.getItem("qcm"));
