@@ -90,7 +90,7 @@ container.innerHTML=`
     <hr>
      <p class="card-text">${text}</p>
      
-     <button id="replay" >Answer</button>
+     <button id="replay" ><a href="/TestQcm/responsesPage.html">Answer</a></button>
   </div>
 `
 
@@ -99,11 +99,11 @@ sessionStorage.setItem("responces",JSON.stringify(responces))
 sessionStorage.setItem("qcm",JSON.stringify(qcm))
 
 
-var replay = document.getElementById("replay")
-replay.onclick=function (){
- window.location.href="/TestQcm/responsesPage.html"
+//var replay = document.getElementById("replay")
+//replay.onclick=function (){
+// window.location.href="/TestQcm/responsesPage.html"
   
-}
+//}
 
   
 }
