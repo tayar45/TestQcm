@@ -6,6 +6,9 @@
 body {
   background-color: salmon;
 }
+a{
+  text-decoration:none;
+}
 
 .container {
   width: 80%;
