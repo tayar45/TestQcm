@@ -90,7 +90,7 @@ container.innerHTML=`
     <hr>
      <p class="card-text">${text}</p>
      
-     <button id="replay" ><a href="/TestQcm/responsesPage.html">Answer</a></button>
+     <button id="replay" ><a style="text-decoration: none; color:white;" href="/TestQcm/responsesPage.html">Answer</a></button>
   </div>
 `
 
